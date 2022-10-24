@@ -1,0 +1,19 @@
+.landing-container {
+    background-color: lavender;
+    height: 756px;
+    flex: 1 -1 auto;
+    align-items: center;
+    justify-content: center;
+    width: -webkit-fill-available;
+
+    .name-container{
+        color:black;
+
+        h1{
+            padding-bottom: 20px;
+            border-bottom: 1px solid #FFFFFF;
+            border-bottom-color:rgb(104 0 133 / 37%);
+            display: inline-block;
+        }
+    }
+}
