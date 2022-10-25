@@ -1,19 +1,46 @@
 .landing-container {
-    background-color: lavender;
-    height: 756px;
-    flex: 1 -1 auto;
-    align-items: center;
-    justify-content: center;
+    background-image: url('../../images/Landing.jpg');
+    background-size: cover;
     width: -webkit-fill-available;
+    height: 756px;
+    
+    
+    .overlay{
+        background-color:rgb(41 18 18 / 30%);;
+        height: 756px;
+        flex: 1 -1 auto;
+        align-items: center;
+        justify-content: center;
+
+    }
 
     .name-container{
-        color:black;
+        position: relative;
+        top: 35%;
+        z-index: 4;
+        text-align: center;
+
+        opacity: 0.6;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 100%;
+        }
+        
 
         h1{
             padding-bottom: 20px;
             border-bottom: 1px solid #FFFFFF;
-            border-bottom-color:rgb(104 0 133 / 37%);
+            border-bottom-color:rgb(255 255 255 / 37%);
             display: inline-block;
+            margin-bottom: -10px;
+            font-family: 'Julius Sans One', sans-serif;
+           
+        }
+
+        h4{
+            font-family: 'Julius Sans One', sans-serif;
+            font-size: 16px;
         }
     }
 }

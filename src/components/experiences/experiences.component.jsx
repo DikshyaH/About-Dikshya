@@ -2,7 +2,7 @@ import './experiences.styles.scss';
 
 const Experience = () => {
     return(
-        <div classsName="experiences">
+        <div className="experiences">
             <h1>Experiences</h1>
 
         </div>

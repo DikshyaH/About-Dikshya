@@ -2,7 +2,7 @@ import './profile.styles.scss';
 
 const Profile = () => {
     return(
-        <div classsName="profile">
+        <div className="profile">
             <h1>Profile</h1>
 
         </div>
