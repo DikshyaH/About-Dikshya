@@ -1,12 +1,40 @@
+@keyframes example {
+    from {content: none;}
+    to {content :url('../../images/down.png');}
+  }
+
+
 .landing-container {
     background-image: url('../../images/Landing.jpg');
     background-size: cover;
     width: -webkit-fill-available;
     height: 756px;
+
+    .scroll-down{
+        height: 80px;
+        width: 110px;
+        display: block;
+        position: absolute;
+        bottom: -360px;
+        left:67px;
+        background-color: #222222;
+        text-align: center;
+        z-index: 6;
+
+        .arrow{
+            // padding-top: 20px;
+            animation-name: example;
+            animation-duration: 3s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+
+        }
+    }
     
     
     .overlay{
-        background-color:rgb(41 18 18 / 30%);;
+        background-color:rgb(41 18 18 / 30%);
         height: 756px;
         flex: 1 -1 auto;
         align-items: center;
@@ -19,7 +47,6 @@
         top: 35%;
         z-index: 4;
         text-align: center;
-
         opacity: 0.6;
 
         &:hover {
@@ -27,7 +54,6 @@
             opacity: 100%;
         }
         
-
         h1{
             padding-bottom: 20px;
             border-bottom: 1px solid #FFFFFF;
@@ -43,4 +69,6 @@
             font-size: 16px;
         }
     }
+
+
 }

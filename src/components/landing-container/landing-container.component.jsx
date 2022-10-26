@@ -5,8 +5,11 @@ const Landing = () => {
         <div className='landing-container'>
             <div className='overlay'>
             <div className='name-container'>
-                    <h1>Dikshya Handique</h1>
-                    <h4>Interactive Resume</h4>
+                <a href='/' className='scroll-down'><span className='arrow'></span></a>
+                
+                <h1>Dikshya Handique</h1>
+                <h4>Interactive Resume</h4>
+                    
             </div>
             </div>
         </div>
