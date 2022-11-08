@@ -5,17 +5,22 @@
 
 
 .landing-container {
+    // background-image: ;
+    // background-size: cover;
+    width: 100%;
+    height: 722px;
+    background: no-repeat center right fixed url('../../images/Landing.jpg');
     background-image: url('../../images/Landing.jpg');
+    background-position-x: right;
+    background-position-y: center;
     background-size: cover;
-    width: -webkit-fill-available;
-    height: 756px;
 
     .scroll-down{
         height: 80px;
         width: 110px;
         display: block;
-        position: absolute;
-        bottom: -360px;
+        position: relative;
+        bottom: -469px;
         left:67px;
         background-color: #222222;
         text-align: center;
@@ -35,7 +40,7 @@
     
     .overlay{
         background-color:rgb(41 18 18 / 30%);
-        height: 756px;
+        height: 722px;
         flex: 1 -1 auto;
         align-items: center;
         justify-content: center;
@@ -44,7 +49,7 @@
 
     .name-container{
         position: relative;
-        top: 35%;
+        top: 24%;
         z-index: 4;
         text-align: center;
         opacity: 0.6;

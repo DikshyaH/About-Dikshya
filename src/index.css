@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1{
+
+  font-family: 'Josefin Slab', serif;
+  font-weight: 15px;
+  color: #e9f5ffde;
+  
+}
+
+h5{
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 20px;
+}
+
+p{
+  text-align: justify;
+  font-size: 21px;
+  font-family: monospace;
+
+}
+

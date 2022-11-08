@@ -1,7 +1,50 @@
 .profile{
-    height: 756px;
-    flex: 1 -1 auto;
+    height: 722px;
     align-items: center;
     justify-content: center;
     width: -webkit-fill-available;
+
+    .profile-heading{
+        border-bottom: 1px solid #FFFFFF;
+        border-bottom-color: rgba(255, 255, 255, 0.37);
+        display: inline-block;
+        margin-bottom: -10px;
+        width: 237px;
+    }
+
+    .text-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 501px;
+        padding-top: 20px;
+        
+        .photo{
+            border: #777a7f;
+            border-style: solid;
+            width: 300px;
+            height: 338px;
+
+            .profile-pic{
+                width: 256px;
+                height: 290px;
+                padding-top: 25px;
+                aspect-ratio: auto;
+            }
+        }
+
+        .about-me{
+            // border-style: solid;
+            /* background: #848484; */
+            width: 566px;
+            height: 492px;
+            flex-basis: 761px;
+            padding-left: 100px;
+            // padding-top: 80px;
+
+
+        }
+ 
+    }
+    
 }
